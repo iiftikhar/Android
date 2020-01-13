@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/g"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/solve"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/solve"
+        android:layout_marginTop="142dp">
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bn"
+            android:background="@android:color/transparent"
+            android:text="PLAY"
+            android:textSize="25dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="110dp"
+            android:textColor="#AE92"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200sp"
+            android:layout_marginRight="110dp"
+            android:text="EXIT"
+            android:textSize="25dp"
+            android:textColor="#E258"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
